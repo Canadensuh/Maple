@@ -19,7 +19,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -87,11 +86,10 @@ nav ul li a.active {
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('https://images.unsplash.com/photo-1489599809505-7ed0b5b2b5c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+        url('Images/Stranger_Banner.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -145,7 +143,6 @@ nav ul li a.active {
     transform: scale(1.05);
 }
 
-/* Sections */
 section {
     padding: 50px;
 }
@@ -164,7 +161,38 @@ section {
     font-size: 14px;
 }
 
-/* Carousel */
+#releases {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('Images/Breakin_Post.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#reviews {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('Images/TheCrown_Post.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#calendar {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('Images/Witcher_Post.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#lists {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('Images/Queen_Post.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .carousel {
     display: flex;
     overflow-x: auto;
@@ -221,7 +249,6 @@ section {
     color: #ffd700;
 }
 
-/* Reviews Section */
 .review-card {
     background-color: var(--maple-gray);
     border-radius: 4px;
@@ -253,7 +280,6 @@ section {
     color: var(--maple-light-gray);
 }
 
-/* Calendar Section */
 .calendar {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -303,7 +329,6 @@ section {
     font-size: 14px;
 }
 
-/* Lists Section */
 .lists {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -326,7 +351,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
 }
 
 .list-poster {
@@ -343,7 +368,6 @@ section {
     font-size: 18px;
 }
 
-/* Modal */
 .modal {
     display: none;
     position: fixed;
@@ -420,7 +444,6 @@ section {
     margin-top: 20px;
 }
 
-/* Footer */
 footer {
     background-color: #000;
     padding: 30px 50px;
@@ -446,7 +469,6 @@ footer {
     text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     header {
         padding: 15px 20px;
@@ -480,7 +502,8 @@ footer {
         flex-direction: column;
     }
 
-    .modal-poster, .modal-info {
+    .modal-poster,
+    .modal-info {
         width: 100%;
     }
 }

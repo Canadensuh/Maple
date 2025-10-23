@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Header -->
     <header>
         <a href="#" class="logo">
-            <img src="Images/MapleLogo.png" alt="Maple">
+            <img src="Images/Maple_Logo.png" alt="Maple">
         </a>
         <nav>
             <ul>
@@ -28,11 +29,12 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('Images/Stranger_banner.jpg'); background-size: cover; background-position: center;">
         <div class="hero-content">
             <h1>Stranger Things</h1>
-            <p>Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+            <p>Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças
+                sobrenaturais e uma menina.</p>
             <div class="hero-buttons">
                 <button class="btn btn-primary"><i class="fas fa-play"></i> Assistir Trailer</button>
                 <button class="btn btn-secondary"><i class="fas fa-info-circle"></i> Mais Informações</button>
@@ -40,51 +42,46 @@
         </div>
     </section>
 
-    <!-- Releases Section -->
-    <section id="releases">
+    <section id="releases"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('Images/releases-bg.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="section-title">
             <h2>Lançamentos e Destaques</h2>
             <a href="#">Ver Todos</a>
         </div>
         <div class="carousel" id="releases-carousel">
-            <!-- Movie cards will be added by JavaScript -->
         </div>
     </section>
 
-    <!-- Reviews Section -->
-    <section id="reviews">
+    <section id="reviews"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('Images/reviews-bg.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="section-title">
             <h2>Avaliações e Críticas</h2>
             <a href="#">Ver Todas</a>
         </div>
         <div class="reviews-container">
-            <!-- Review cards will be added by JavaScript -->
         </div>
     </section>
 
-    <!-- Calendar Section -->
-    <section id="calendar">
+    <section id="calendar"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('Images/calendar-bg.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="section-title">
             <h2>Calendário de Lançamentos</h2>
             <a href="#">Ver Calendário Completo</a>
         </div>
         <div class="calendar">
-            <!-- Calendar items will be added by JavaScript -->
         </div>
     </section>
 
-    <!-- Lists Section -->
-    <section id="lists">
+    <section id="lists"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('Images/lists-bg.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="section-title">
             <h2>Minhas Listas</h2>
             <a href="#">Criar Nova Lista</a>
         </div>
         <div class="lists">
-            <!-- List cards will be added by JavaScript -->
         </div>
     </section>
 
-    <!-- Modal -->
     <div class="modal" id="movie-modal">
         <div class="modal-content">
             <button class="modal-close" id="modal-close">&times;</button>
@@ -103,14 +100,12 @@
                         <button class="btn btn-secondary"><i class="fas fa-plus"></i> Adicionar à Lista</button>
                     </div>
                     <div class="modal-trailer" id="modal-trailer">
-                        <!-- Trailer iframe would be inserted here -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-links">
             <a href="#">Perguntas Frequentes</a>
@@ -120,9 +115,10 @@
             <a href="#">Preferências de Cookies</a>
             <a href="#">Informações Corporativas</a>
         </div>
-        <p>© 2023 Maple - Avaliações e Recomendações</p>
+        <p>© 2023 Maple <br>[15935] Murilo do Nascimento B. <br> [15870] Kaue Sousa Rivera</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
